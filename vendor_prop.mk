@@ -246,3 +246,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=420	
+
+# OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+    lineage.updater.uri=https://raw.githubusercontent.com/Zentalk-VN/CMupdater_API/lineage-16.0/X00T.json
